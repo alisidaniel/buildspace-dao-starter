@@ -17,7 +17,7 @@ const app = sdk.getAppModule("0xFa05E84745A4041B0cd5a1FB40c73B3e6f74a938");
       // We're planning on not charging people for the drop, so we'll pass in the 0x0 address
       // you can set this to your own wallet address if you want to charge for the drop.
       primarySaleRecipientAddress: ethers.constants.AddressZero,
-    });
+});
     
     console.log(
       "✅ Successfully deployed bundleDrop module, address:",
